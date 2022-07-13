@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nft/ListData.dart';
 import 'package:nft/createpage.dart';
 import 'package:nft/home.dart';
 import 'package:nft/splash.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Splash(),
+      home: const MyData(),
     );
   }
 }
