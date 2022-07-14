@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775860029068",
+    "project_id": "nft-marketplace-84526",
+    "storage_bucket": "nft-marketplace-84526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775860029068:android:c6c22be3067a750a7adda9",
+        "android_client_info": {
+          "package_name": "com.example.nft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775860029068-6grgst4q1p9m3gs0443ed0uiaficqmi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBikDKbVLEkep5r0h3nT84RfTzYGkrI-bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775860029068-6grgst4q1p9m3gs0443ed0uiaficqmi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

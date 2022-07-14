@@ -39,9 +39,16 @@ class _MyDataState extends State<MyData> {
         backgroundColor: Colors.lightGreen,
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        // children: quotes.map((q) => Text(q)).toList(),
-        children: quotes.map((q) => Text('${q.text} --> ${q.author}')).toList(),
+        children: [
+          Card(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              // children: quotes.map((q) => Text(q)).toList(),
+              children:
+                  quotes.map((q) => Text('${q.text} --> ${q.author}')).toList(),
+            ),
+          ),
+        ],
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:nft/firstScreen.dart';
 import 'package:nft/home.dart';
 
 class Splash extends StatefulWidget {
@@ -20,7 +21,7 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     Timer(Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(
-        builder: (context) => Home(),
+        builder: (context) => FirstScreen(),
       ));
     });
     return Scaffold(
